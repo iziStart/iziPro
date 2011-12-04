@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07295706148BC31A0009C7D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07295705148BC31A0009C7D7 /* UIKit.framework */; };
+		07295708148BC31A0009C7D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07295707148BC31A0009C7D7 /* Foundation.framework */; };
+		0729570A148BC31A0009C7D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07295709148BC31A0009C7D7 /* CoreGraphics.framework */; };
+		07295710148BC31A0009C7D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0729570E148BC31A0009C7D7 /* InfoPlist.strings */; };
+		07295712148BC31A0009C7D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07295711148BC31A0009C7D7 /* main.m */; };
+		07295716148BC31A0009C7D7 /* iziAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07295715148BC31A0009C7D7 /* iziAppDelegate.m */; };
+		07295719148BC31A0009C7D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07295717148BC31A0009C7D7 /* MainStoryboard.storyboard */; };
+		0729571C148BC31A0009C7D7 /* iziViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0729571B148BC31A0009C7D7 /* iziViewController.m */; };
+		07295724148BC31A0009C7D7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07295723148BC31A0009C7D7 /* SenTestingKit.framework */; };
+		07295725148BC31A0009C7D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07295705148BC31A0009C7D7 /* UIKit.framework */; };
+		07295726148BC31A0009C7D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07295707148BC31A0009C7D7 /* Foundation.framework */; };
+		0729572E148BC31B0009C7D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0729572C148BC31B0009C7D7 /* InfoPlist.strings */; };
+		07295731148BC31B0009C7D7 /* iziProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07295730148BC31B0009C7D7 /* iziProTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07295727148BC31A0009C7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072956F8148BC31A0009C7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07295700148BC31A0009C7D7;
+			remoteInfo = iziPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07295701148BC31A0009C7D7 /* iziPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iziPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07295705148BC31A0009C7D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07295707148BC31A0009C7D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07295709148BC31A0009C7D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0729570D148BC31A0009C7D7 /* iziPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iziPro-Info.plist"; sourceTree = "<group>"; };
+		0729570F148BC31A0009C7D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07295711148BC31A0009C7D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07295713148BC31A0009C7D7 /* iziPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iziPro-Prefix.pch"; sourceTree = "<group>"; };
+		07295714148BC31A0009C7D7 /* iziAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iziAppDelegate.h; sourceTree = "<group>"; };
+		07295715148BC31A0009C7D7 /* iziAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iziAppDelegate.m; sourceTree = "<group>"; };
+		07295718148BC31A0009C7D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0729571A148BC31A0009C7D7 /* iziViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iziViewController.h; sourceTree = "<group>"; };
+		0729571B148BC31A0009C7D7 /* iziViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iziViewController.m; sourceTree = "<group>"; };
+		07295722148BC31A0009C7D7 /* iziProTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iziProTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07295723148BC31A0009C7D7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0729572B148BC31B0009C7D7 /* iziProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iziProTests-Info.plist"; sourceTree = "<group>"; };
+		0729572D148BC31B0009C7D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0729572F148BC31B0009C7D7 /* iziProTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iziProTests.h; sourceTree = "<group>"; };
+		07295730148BC31B0009C7D7 /* iziProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iziProTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072956FE148BC31A0009C7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07295706148BC31A0009C7D7 /* UIKit.framework in Frameworks */,
+				07295708148BC31A0009C7D7 /* Foundation.framework in Frameworks */,
+				0729570A148BC31A0009C7D7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0729571E148BC31A0009C7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07295724148BC31A0009C7D7 /* SenTestingKit.framework in Frameworks */,
+				07295725148BC31A0009C7D7 /* UIKit.framework in Frameworks */,
+				07295726148BC31A0009C7D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072956F6148BC31A0009C7D7 = {
+			isa = PBXGroup;
+			children = (
+				0729570B148BC31A0009C7D7 /* iziPro */,
+				07295729148BC31A0009C7D7 /* iziProTests */,
+				07295704148BC31A0009C7D7 /* Frameworks */,
+				07295702148BC31A0009C7D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07295702148BC31A0009C7D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07295701148BC31A0009C7D7 /* iziPro.app */,
+				07295722148BC31A0009C7D7 /* iziProTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07295704148BC31A0009C7D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07295705148BC31A0009C7D7 /* UIKit.framework */,
+				07295707148BC31A0009C7D7 /* Foundation.framework */,
+				07295709148BC31A0009C7D7 /* CoreGraphics.framework */,
+				07295723148BC31A0009C7D7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0729570B148BC31A0009C7D7 /* iziPro */ = {
+			isa = PBXGroup;
+			children = (
+				07295714148BC31A0009C7D7 /* iziAppDelegate.h */,
+				07295715148BC31A0009C7D7 /* iziAppDelegate.m */,
+				07295717148BC31A0009C7D7 /* MainStoryboard.storyboard */,
+				0729571A148BC31A0009C7D7 /* iziViewController.h */,
+				0729571B148BC31A0009C7D7 /* iziViewController.m */,
+				0729570C148BC31A0009C7D7 /* Supporting Files */,
+			);
+			path = iziPro;
+			sourceTree = "<group>";
+		};
+		0729570C148BC31A0009C7D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0729570D148BC31A0009C7D7 /* iziPro-Info.plist */,
+				0729570E148BC31A0009C7D7 /* InfoPlist.strings */,
+				07295711148BC31A0009C7D7 /* main.m */,
+				07295713148BC31A0009C7D7 /* iziPro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07295729148BC31A0009C7D7 /* iziProTests */ = {
+			isa = PBXGroup;
+			children = (
+				0729572F148BC31B0009C7D7 /* iziProTests.h */,
+				07295730148BC31B0009C7D7 /* iziProTests.m */,
+				0729572A148BC31A0009C7D7 /* Supporting Files */,
+			);
+			path = iziProTests;
+			sourceTree = "<group>";
+		};
+		0729572A148BC31A0009C7D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0729572B148BC31B0009C7D7 /* iziProTests-Info.plist */,
+				0729572C148BC31B0009C7D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07295700148BC31A0009C7D7 /* iziPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07295734148BC31B0009C7D7 /* Build configuration list for PBXNativeTarget "iziPro" */;
+			buildPhases = (
+				072956FD148BC31A0009C7D7 /* Sources */,
+				072956FE148BC31A0009C7D7 /* Frameworks */,
+				072956FF148BC31A0009C7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iziPro;
+			productName = iziPro;
+			productReference = 07295701148BC31A0009C7D7 /* iziPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07295721148BC31A0009C7D7 /* iziProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07295737148BC31B0009C7D7 /* Build configuration list for PBXNativeTarget "iziProTests" */;
+			buildPhases = (
+				0729571D148BC31A0009C7D7 /* Sources */,
+				0729571E148BC31A0009C7D7 /* Frameworks */,
+				0729571F148BC31A0009C7D7 /* Resources */,
+				07295720148BC31A0009C7D7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07295728148BC31A0009C7D7 /* PBXTargetDependency */,
+			);
+			name = iziProTests;
+			productName = iziProTests;
+			productReference = 07295722148BC31A0009C7D7 /* iziProTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072956F8148BC31A0009C7D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 072956FB148BC31A0009C7D7 /* Build configuration list for PBXProject "iziPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 072956F6148BC31A0009C7D7;
+			productRefGroup = 07295702148BC31A0009C7D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07295700148BC31A0009C7D7 /* iziPro */,
+				07295721148BC31A0009C7D7 /* iziProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072956FF148BC31A0009C7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07295710148BC31A0009C7D7 /* InfoPlist.strings in Resources */,
+				07295719148BC31A0009C7D7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0729571F148BC31A0009C7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0729572E148BC31B0009C7D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07295720148BC31A0009C7D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072956FD148BC31A0009C7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07295712148BC31A0009C7D7 /* main.m in Sources */,
+				07295716148BC31A0009C7D7 /* iziAppDelegate.m in Sources */,
+				0729571C148BC31A0009C7D7 /* iziViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0729571D148BC31A0009C7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07295731148BC31B0009C7D7 /* iziProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07295728148BC31A0009C7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07295700148BC31A0009C7D7 /* iziPro */;
+			targetProxy = 07295727148BC31A0009C7D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0729570E148BC31A0009C7D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0729570F148BC31A0009C7D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07295717148BC31A0009C7D7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07295718148BC31A0009C7D7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0729572C148BC31B0009C7D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0729572D148BC31B0009C7D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07295732148BC31B0009C7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07295733148BC31B0009C7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07295735148BC31B0009C7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iziPro/iziPro-Prefix.pch";
+				INFOPLIST_FILE = "iziPro/iziPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07295736148BC31B0009C7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iziPro/iziPro-Prefix.pch";
+				INFOPLIST_FILE = "iziPro/iziPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07295738148BC31B0009C7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iziPro.app/iziPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iziPro/iziPro-Prefix.pch";
+				INFOPLIST_FILE = "iziProTests/iziProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07295739148BC31B0009C7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iziPro.app/iziPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iziPro/iziPro-Prefix.pch";
+				INFOPLIST_FILE = "iziProTests/iziProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072956FB148BC31A0009C7D7 /* Build configuration list for PBXProject "iziPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07295732148BC31B0009C7D7 /* Debug */,
+				07295733148BC31B0009C7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07295734148BC31B0009C7D7 /* Build configuration list for PBXNativeTarget "iziPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07295735148BC31B0009C7D7 /* Debug */,
+				07295736148BC31B0009C7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07295737148BC31B0009C7D7 /* Build configuration list for PBXNativeTarget "iziProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07295738148BC31B0009C7D7 /* Debug */,
+				07295739148BC31B0009C7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 072956F8148BC31A0009C7D7 /* Project object */;
+}
