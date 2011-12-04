@@ -9,6 +9,9 @@
 #import "iziViewController.h"
 
 @implementation iziViewController
+@synthesize textField;
+@synthesize label;
+@synthesize userName=_userName;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +29,8 @@
 
 - (void)viewDidUnload
 {
+    [self setTextField:nil];
+    [self setLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +62,6 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)changeGreeting:(id)sender {
+}
 @end
